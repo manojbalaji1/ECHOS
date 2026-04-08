@@ -23,7 +23,7 @@ from config import ECHOSConfig
 from echos.model_loader import load_base_model
 from echos.swarm import ECHOSSwarm
 from echos.flops import (
-    analytical_text_debate_flops, echos_gossip_flops,
+    echos_gossip_flops,
     text_debate_flops, echos_gossip_flops as echos_flops,
 )
 from baselines.all_baselines import (
